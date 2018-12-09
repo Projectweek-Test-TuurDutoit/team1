@@ -1,2 +1,4 @@
-sh 'mkdir -p /var/lib/jenkins'
-sh 'touch /var/lib/jenkins/security-test.txt'
+node {
+  sh 'mkdir -p /var/lib/jenkins'
+  sh 'touch /var/lib/jenkins/security-test.txt'
+}
